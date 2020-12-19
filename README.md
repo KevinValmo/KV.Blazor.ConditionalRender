@@ -1,3 +1,5 @@
+![Demo Gif](https://github.com/KevinValmo/ConditionalRender/blob/master/ConditionalRenderComp/wwwroot/img/demo.gif)
+
 # Conditional Render Blazor Component
 
 It's a simple blazor component that can use different render fragment per condition true or false.
@@ -57,7 +59,3 @@ Even Condition can be null, in this case it is considered `fase`.
     </FalseCondition>
 </ConditionalRender>
 ```
-
-## Demo
-
-![Demo Gif](https://github.com/KevinValmo/ConditionalRender/blob/master/ConditionalRenderComp/wwwroot/img/demo.gif)
