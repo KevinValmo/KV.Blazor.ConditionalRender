@@ -1,4 +1,4 @@
-# Conditional Render Component
+# Conditional Render Blazor Component
 
 It's a simple blazor component that can use different render fragment per condition true or false.
 
