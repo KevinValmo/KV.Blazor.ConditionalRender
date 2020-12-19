@@ -1,0 +1,44 @@
+﻿@using ConditionalRenderComp.Components
+
+@page "/"
+
+<ConditionalRender Condition="() => myBool">
+    <TrueCondition>
+        <h1 class="index-true-condition">Hello true world!</h1>
+    </TrueCondition>
+    <FalseCondition>
+        <h1 class="index-false-condition">Hello false world!</h1>
+    </FalseCondition>
+</ConditionalRender>
+
+<hr />
+<button class="index-btn" @onclick="OnClick">Click me!</button>
+<hr />
+
+<style>
+    .index-true-condition {
+        background-color: green;
+    }
+
+    .index-false-condition {
+        background-color: red;
+    }
+
+    .index-btn {
+        background-color: var(--success);
+        color: var(--light);
+        border: none;
+        border-radius: 5px;
+        outline: none!important;
+        transition: all 0.1s;
+    }
+
+        .index-btn:hover {
+            background-color: var(--lighter-succes);
+        }
+
+        .index-btn:active {
+            background-color: var(--darker-succes);
+        }
+
+</style>
