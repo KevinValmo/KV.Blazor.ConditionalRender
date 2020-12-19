@@ -60,4 +60,4 @@ Even Condition can be null, in this case it is considered `fase`.
 
 ## Demo
 
-![Demo Gif](/images/logo.png)
+![Demo Gif](https://github.com/KevinValmo/ConditionalRender/blob/master/ConditionalRenderComp/wwwroot/img/demo.gif)
